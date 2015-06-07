@@ -1,0 +1,40 @@
+doctype
+html
+  head
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css")
+    link(href="//fonts.googleapis.com/css?family=Francois+One" rel="stylesheet" type="text/css")
+    link(href="/css/main.css" rel="stylesheet" type="text/css")
+    link(rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon")
+    link(rel="apple-touch-icon" href="/images/apple-touch-icon.png")
+    link(rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png")
+    link(rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png")
+    link(rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png")
+    link(rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png")
+    link(rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png")
+    link(rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png")
+    link(rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png")
+    meta(content='width=device-width, initial-scale=1' name='viewport')
+    title When It Ships
+  body
+    #content.container-fluid
+      .container
+        .col-xs-12
+          .row
+            img(src="/images/icon.png")
+            h1 When It Ships
+            h3 Subscribe for Updates
+        .col-xs-12.col-lg-4.col-lg-offset-4
+          form(action="//whenitships.us11.list-manage.com/subscribe/post?u=7054b3d138e8429a4a7d8d182&amp;id=3dea3469f3" method="post" target="_blank" novalidate)
+            label(for="mce-EMAIL") Email
+            input#email.form-control(type="email" name="EMAIL" id="mce-EMAIL")
+            .hidden
+              input(type="text" name="b_7054b3d138e8429a4a7d8d182_3dea3469f3" tabindex="-1" value="")
+            input#submit.btn(type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe")
+
+    script
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-63804993-1', 'auto');
+      ga('send', 'pageview');
